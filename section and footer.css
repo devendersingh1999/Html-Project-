@@ -1,0 +1,96 @@
+ div.hey{
+    display: flex;
+    width: 40px;
+    
+ }
+ .name{
+padding: 40px;
+margin: 40px;
+box-shadow: 5px 2px 15px gray;
+
+ }
+ h1{
+    text-align: center;
+    color: blue;
+ }
+ p{
+    text-align: center;
+    color: lightslategray;
+ }
+ p>a{
+   background-color: blue;
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+
+ }
+
+ @media (max-width: 700px){
+   .hey{
+      flex-direction: column;
+   }
+   .hey div{
+      width: 50vw;
+      margin: 0 auto;
+   }
+   img{
+      width: 250px;
+   }
+ }
+ .ro{
+   width: 270px;
+      padding: 40px;
+      margin: 40px;
+      box-shadow: 5px 2px 15px gray;
+ }
+ .ro>p{
+   text-align: center;
+   color: lightslategray;
+}
+.ro>p>a{
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+ }
+ body>footer{color: white;
+   background-color: #245079;
+   padding-left: 64px;
+   padding-right: 64px;
+
+}
+a{
+   text-decoration: none;
+   color: rgb(203 213 225);
+
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   gap: 32px;
+}
+.single{
+   display: flex;
+   justify-content: space-between;
+}
+li{
+   list-style-type: none;
+   margin: 7px;
+   
+}
+.top{
+   padding-left: 0%;
+}
+.hey{
+   margin-top: 50px;
+}
+@media (max-width: 600px) and (min-width:500px) {
+   .container {
+       flex-direction: column;
+   }
+}
+
+
+ 
